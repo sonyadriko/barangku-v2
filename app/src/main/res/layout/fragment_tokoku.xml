@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.TokokuFragment">
+
+    <LinearLayout
+        android:id="@+id/layMainTokoku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnDagangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dagangan"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btnRiwayatPsn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Riwayat pesanan"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btnSaldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saldo"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btnPengaturanToko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengaturan toko"
+            android:textAlignment="textStart"/>
+    </LinearLayout>
+
+</FrameLayout>

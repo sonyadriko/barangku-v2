@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical"
+    tools:context=".DaganganActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlProfilTokoDagangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/ivPicTokoDagangan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/design_image" />
+
+        <TextView
+            android:id="@+id/tvNamaTokoDagangan"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/ivPicTokoDagangan" />
+
+        <TextView
+            android:id="@+id/tvSloganTokoDagangan"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNamaTokoDagangan"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@id/ivPicTokoDagangan"
+            android:layout_toRightOf="@id/ivPicTokoDagangan" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnTambahDagangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Tambah dagangan" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recViewDagangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

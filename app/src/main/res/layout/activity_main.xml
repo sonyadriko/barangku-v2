@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Selamat datang di Barangku"
+       android:layout_marginTop="150dp"
+       style="@style/Base.TextAppearance.AppCompat.Large"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tempat jual beli item game aman dan terpercaya"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.AppCompat.Medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="16dp">
+        <Button
+            android:id="@+id/btnToMasuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MASUK"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"/>
+        <Button
+            android:id="@+id/btnToDaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAFTAR"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/button_sign_in"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content">
+
+    </com.google.android.gms.common.SignInButton>
+</LinearLayout>

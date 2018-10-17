@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical"
+    tools:context=".ProdukDetail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageDetailItem"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/namaDetailItem"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageDetailItem"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/hargaDetailItem"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/namaDetailItem"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/stokDetailItem"
+            android:layout_below="@id/hargaDetailItem"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/penjualDetailItem"
+            android:layout_below="@id/stokDetailItem"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Penjual" />
+
+        <RelativeLayout
+            android:id="@+id/rlDetailItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/penjualDetailItem">
+
+            <ImageView
+                android:id="@+id/picProdukDetail"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/tvNamaTokoPD"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toEndOf="@id/picProdukDetail"
+                android:layout_toRightOf="@id/picProdukDetail" />
+
+            <Button
+                android:id="@+id/btnChatDetailProduk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNamaTokoPD"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/picProdukDetail"
+                android:layout_toRightOf="@id/picProdukDetail"
+                android:text="kirim pesan" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textDeskDetailProduk"
+            android:layout_below="@id/rlDetailItem"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Deskripsi Produk" />
+
+        <TextView
+            android:id="@+id/DeskDetailProduk"
+            android:layout_below="@id/textDeskDetailProduk"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnMasukkanKeranjangPD"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/DeskDetailProduk"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Masukkan Keranjang" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Barangku-V2</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_akun">Akun</string>
+    <string name="nav_inbox">Inbox</string>
+    <string name="nav_tokoku">Tokoku</string>
+    <string name="nav_keranjang">Keranjang</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

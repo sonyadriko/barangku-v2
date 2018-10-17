@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "863360648240",
+    "firebase_url": "https://barangku-v2.firebaseio.com",
+    "project_id": "barangku-v2",
+    "storage_bucket": "barangku-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863360648240:android:534bb1d87b4c92a2",
+        "android_client_info": {
+          "package_name": "com.example.xdreamer.barangku_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863360648240-6nrk1vs6kl11f3dj12oopmdm4fb4iglv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBobBU1_ZAr4DjvBZh-bs-j4r_gRyZ8xzQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

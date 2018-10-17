@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xdreamer.barangku_v2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuActivity" />
+        <activity
+            android:name=".DaftarActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ResetPassword"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ProfileAkun"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".UpdateProfileUser"
+            android:parentActivityName=".ProfileAkun" />
+        <activity
+            android:name=".GantiPassword"
+            android:parentActivityName=".ProfileAkun" />
+        <activity
+            android:name=".DaganganActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".RiwayatPesanan"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".SaldoActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".PengaturanToko"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".UpdateProfileToko"
+            android:parentActivityName=".DaganganActivity" />
+        <activity android:name=".DaganganItem" />
+        <activity android:name=".TambahProduk" />
+        <activity android:name=".NewProdukToram" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".PesanBantuan" />
+        <activity android:name=".ProdukDetail" />
+        <activity android:name=".SlideImagePromo" />
+        <activity android:name=".KeranjangItem"></activity>
+    </application>
+
+</manifest>

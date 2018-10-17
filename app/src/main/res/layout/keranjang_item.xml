@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    tools:context=".KeranjangItem">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/cartImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp" />
+
+        <TextView
+            android:id="@+id/cartNama"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@id/cartImage"
+            android:layout_toRightOf="@id/cartImage" />
+
+        <TextView
+            android:id="@+id/cartHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cartNama"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/cartImage" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_delete_black_24dp"
+            android:layout_below="@id/cartHarga"
+            android:layout_marginRight="20dp"
+            android:layout_height="40dp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

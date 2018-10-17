@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahProduk"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Pilih kategori"/>
+
+    <Button
+        android:id="@+id/button_newProdukMl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Legends"/>
+
+
+    <Button
+        android:id="@+id/button_newProdukToram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toram Online"/>
+
+
+    <Button
+        android:id="@+id/button_newProdukPUBG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PUBG"/>
+
+
+    <Button
+        android:id="@+id/button_newProdukHayDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hay Day"/>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    tools:context=".Fragment.AkunFragment">
+
+    <RelativeLayout
+        android:id="@+id/layoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutAkun">
+
+        <ImageView
+            android:id="@+id/picAkun"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/design_image"
+            android:src="@drawable/ic_person_black_24dp"/>
+
+        <TextView
+            android:id="@+id/tvNamaAkun"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@+id/picAkun"
+            android:layout_toRightOf="@+id/picAkun" />
+
+        <TextView
+            android:id="@+id/tvEditAkun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNamaAkun"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@id/picAkun"
+            android:layout_toRightOf="@id/picAkun"
+            android:text="Edit profil" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutButton"
+            android:layout_below="@+id/layoutAkun"
+            android:layout_marginTop="20dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_keluar"
+                android:text="Keluar"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</FrameLayout>

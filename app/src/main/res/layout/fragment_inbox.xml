@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.InboxFragment">
+
+    <LinearLayout
+        android:id="@+id/layMainInbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/btnChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chat"
+        android:textAlignment="textStart"/>
+
+    <Button
+        android:id="@+id/btnPesanBantuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan Bantuan"
+        android:textAlignment="textStart"/>
+    </LinearLayout>
+
+</FrameLayout>
